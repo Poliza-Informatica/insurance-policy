@@ -50,7 +50,7 @@ if ( ! isset($_GET['code'])) {
             
             $params='name='.$name.'&email='.$email.'&locale='.$locale.'&gender=' .$gender. '&link='.$link;
             var_dump($params);
-            header('Location: ../ServletAltaIdentidadFederada.servlet?'.$params);
+            header('Location: ../ServletLoginFacebook.servlet?'.$params);
 
         } catch (Exception $e) {
 
