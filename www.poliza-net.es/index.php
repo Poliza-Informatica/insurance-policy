@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Usuarios de polizawin</title>
+<title>Usuarios de Polizawin</title>
 <!-- for-mobile-apps -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -26,12 +26,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="main">
 			<div class="profile-left">
 				<h2>Login</h2>
-				<form>
+                                <form action="ServletLoginByUserPass.servlet" method="post" accept-charset="UTF-8">
 					<div class="login">
-						<input type="text" class="email-icon" value="Enter your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your Email';}" required="">	
-						<input type="password" class="key-icon"  value="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'password';}" required="">	
+						<input type="text" class="email-icon" value="Enter your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Tu correo';}" required="">	
+						<input type="password" class="key-icon"  value="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'contraseña';}" required="">	
 					</div>
-					<input type="submit" value="Signin" >
+					<input type="submit" value="Enviar" >
 				</form>
 				<div class="login-left">
 					<ul>
