@@ -26,10 +26,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="main">
 			<div class="profile-left">
 				<h2>Login</h2>
-                                <form action="ServletLoginByUserPass.servlet" method="post" accept-charset="UTF-8">
+                                <form action="ServletLoginByUserPass.servlet" method="get" accept-charset="UTF-8">
 					<div class="login">
-						<input type="text" class="email-icon" value="Enter your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Tu correo';}" required="">	
-						<input type="password" class="key-icon"  value="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'contraseña';}" required="">	
+                                        <input type="text" id="xUser" name="xUser" class="email-icon" 
+                                               value="Enter your Email" onfocus="this.value = '';" 
+                                               onblur="if (this.value == '') {this.value = 'Tu correo';}" required="">	
+					<input type="password" id="xPass" name="xPass" class="key-icon"  
+                                               value="password" onfocus="this.value = '';" 
+                                               onblur="if (this.value == '') {this.value = 'contraseña';}" required="">	
 					</div>
 					<input type="submit" value="Enviar" >
 				</form>
